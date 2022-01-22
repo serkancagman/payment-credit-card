@@ -18,12 +18,6 @@ const CreditCard = () => {
       validationSchema,
     });
 
-  React.useEffect(() => {
-    let tir;
-    if (values.cardNumber.length === 4) {
-    }
-  }, [values.cardNumber]);
-
   return (
     <main className="w-100 d-flex justify-content-center align-items-center">
       <div className="cardCanvas">
