@@ -1,1 +1,117 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background-color: #effffc !important;
+}
+
+main {
+  height: 100vh !important;
+}
+
+.cardCanvas {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 2rem 1rem 2rem;
+  position: relative;
+  width: 350px;
+}
+
+.cardLabel {
+  text-align: start;
+  font-size: 13px;
+  position: relative;
+  z-index: 0;
+}
+
+.formWrapper {
+  margin-top: 8rem;
+}
+
+.formErrorMessage {
+  color: red;
+  min-height: 15px;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.cardInput {
+  background-color: #fff !important;
+  border-radius: 7px;
+  border: 1px solid #b6b6b6;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  font-size: 15px !important;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cardInput:focus {
+  border: 1px solid #65a9ac;
+}
+
+.selectDate {
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #b6b6b6;
+}
+
+.cardResult {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  top: -5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.cardImg {
+  border-radius: 10px;
+  width: 100%;
+  height: 180px;
+}
+
+.resultInner {
+  position: relative;
+  height: 100%;
+}
+
+.resultProps {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+}
+
+.resultInput {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid transparent;
+  pointer-events: none;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cardBottomResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cardBottomResult label[for="cardOwner"] {
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.cardBottomResult label[for="expires"] {
+  max-width: 60px;
+}
+/*# sourceMappingURL=main.css.map */
